@@ -37,6 +37,9 @@ div {
 }
 
 .results_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   margin-top: 40px;
   margin-bottom: 40px;
   font-size: 18px;
@@ -123,6 +126,6 @@ div {
   justify-content: center;
 }
 
-.disabled-answer {
+.disabled_answer {
   pointer-events: none;
 }
